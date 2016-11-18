@@ -1,0 +1,135 @@
+ @media screen and (max-width : 920px) {
+
+	.iconos{
+		height: 2em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	.iconos{
+		height: 4em;
+	}
+
+}
+
+/*colores de mi menú*/
+
+.verdelima{
+	color:  #B4F43B !important;
+}
+.blue_ciel{
+	color: #009AF0;
+}
+
+
+.nombre{
+	font-size: 4em;
+	/*font-family: 'Shrikhand', cursive;1*/
+	/*font-family: 'Acme', sans-serif;2*/
+	/*font-family: 'Oleo Script', cursive;3*/
+	/*font-family: 'Coming Soon', cursive;4*/
+	/*font-family: 'Fredoka One', cursive;5*/
+	/*font-family: 'Sacramento', cursive;6*/
+	font-family: 'Walter Turncoat', cursive; /*7*/
+}
+
+.letras_fuente{
+	/*font-family: 'Coming Soon', cursive;*//*4*/
+	font-family: 'Acme', sans-serif;
+	font-size: 2em;
+}
+
+.backblue{
+	/*background-color: #2C6D95;*/
+	background-color: #892138;
+	opacity: .9;
+	margin-top: 60%;
+	padding: 2em;
+}
+
+
+/*BACKGROUNDS*/
+
+.parallax{
+	background-image: url("../images/travel.jpg");
+	height: 100em;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: -2%;
+}
+
+.parallax2{
+	background-image: url("../images/startup.jpg");
+	height: 90em;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: -2%;
+}
+
+.parallax3{
+	background-image: url("../images/glass-ball4.jpg");
+	height: 90em;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: -2em;
+}
+
+.parallax4{
+	background-image: url("../images/office2.jpg");
+	height: 100em;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: -2em;
+}
+.marg_slide{
+	margin-top: -50% !important;
+}
+
+.marg_skills{
+	margin-top: -50% !important;
+}
+
+
+.padd_bar{
+	padding-top: -4%;
+}
+
+.margin_bar{
+	margin-top: -6%;
+	margin-bottom: 5%;
+}
+
+.pad_boton{
+	padding: 1em;
+	margin: 10em;
+}
+
+
+
+/*slide: tamaño de imagenes*/
+
+
+.mySlides {display:none}
+.demo {cursor:pointer}
+
+
+
+/*FOOTER*/
+footer{
+	background-color: #E3E2DD ;
+}
+/*
+.iconos{
+	height: 6em;
+}
+*/
+

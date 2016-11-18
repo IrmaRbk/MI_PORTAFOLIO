@@ -1,0 +1,250 @@
+
+@media screen and (max-width : 920px) {
+		.munu_brg{
+		background-color: #FB8656;
+	}
+		.parrafo_pd{
+			padding-top:3em;
+		}
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.munu_brg{
+		background-color: #FB8656;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
+header{
+	margin: 0%;
+}
+	
+
+}
+						/* header */
+#logo{
+
+	margin-left: 20%;
+}
+.logo{
+	width: 50%;
+	height:50% ;
+	display: inline-block;
+}
+nav{
+	margin-right: 10%;
+}
+nav div ul{
+	padding-top: 3%;
+}
+
+.imgheader{
+	background-image: url(../image/large.jpg);
+	height:38em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.backobs{
+	background-color: rgba(0,0,0,0.6);
+}
+button{
+	border-color: white !important;
+}
+.blanca{
+	color: white;
+}
+h1{
+	margin-top: 20%;
+}
+.backblue{
+	background-color: #2C6D95;
+	opacity: .9;
+	margin-top: 10%;
+	padding: 2%;
+}
+
+.blueB{
+	background-color: #2C6D95;
+
+}
+
+/*aqui empieza ms sections */
+.servicios{
+	padding: 4%;
+}
+
+.pareja{
+	background-image: url(../image/photothumb.db);
+	height: 25em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.lapRosa{
+	background-image: url(../image/sec-2.jpg);
+	height: 30em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	opacity: .7;
+}
+#ciel{
+	font-size: 250%;
+}
+.ciel{
+	color: lightblue;
+	font-size: 100%;
+	font-family: Lucida ,Helvetica;
+}
+.iconos{
+	margin-left: -3%;
+}
+.iconservicios{
+	font-size:400% ;
+	color: lightblue;
+}
+.azul{
+	color: blue;
+	font-size: 150%;
+}
+#line{
+	width: 100%;
+	margin-bottom: -8%;
+	margin-left: -5%;
+}
+#line2{
+	margin-top: -10%;
+}
+
+hr{
+	height: 1%;
+	width: 120%;
+	margin-left: -15%;
+	margin-bottom: 9%;
+}
+.aladerecha{
+	margin-left: -2%;
+}
+.chicobanner{
+	background-image: url(../image/banner.jpg);
+	height: 25em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.espacio{
+	padding-bottom: 8%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.backciel{
+	background-color: #659EC1;
+	padding: 3%;
+}
+
+footer div{
+	background-color: #132D3D;
+	padding: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.separar{
+	padding-top: 2%;
+}
+.sobrepuesto{   /*para mis flechas separador*/
+	margin-top: -5%;
+	padding-right: 4%;
+}
+#sobrepuesto{
+	margin-top: -3%;
+	z-index: 1;
+}
+
+.tweet{
+	display: inline;
+}
+
+/*animaciones*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-400deg);
+     -moz-transform: rotate(-400deg);
+       -o-transform: rotate(-400deg);
+      -ms-transform: rotate(-400deg);
+          transform: rotate(-400deg);
+}
+
+/*aquí comienza CONTACT*/
+
+.backimg{
+	height: 50em;
+	width: 100%;
+}
+.backwhite{
+	background-color: white;
+	height:20em ;
+	width: 50%;
+	margin-top: 15%;
+	margin-left: 26%;
+	
+}
+.padform{
+	padding-right: 3%;
+	padding-left: 3%;
+
+}
+.topform{
+	padding-top: -3%;
+}
+
+input{
+	display:block ;
+}
+.arriba{
+	margin-top: -25%;
+	margin: 10px;
+}
+
+.azulhr{
+	background-color: darkblue;
+	width: 104%;
+	height: 2%;
+	margin-left: -3%;
+	margin-bottom: -1%;
+}
+.segundahr{
+	margin-bottom: -1%;
+	width: 100%;
+	margin-left: -3%;
+}
+button{
+	display: block;
+	margin: 4% ;
+	padding: 1%!important;
+
+}
+.top{
+	margin-top: -4%;
+	display: inline-block;
+}
+.report{
+	margin-left:45% ;
+}
+
+

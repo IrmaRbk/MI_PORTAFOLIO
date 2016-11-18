@@ -1,0 +1,311 @@
+/*  */
+header{
+	background-color: green;
+}
+@media screen and (max-width : 920px) {
+
+	.negro{
+		background-color:  black;
+	}
+	.azulmarino { 
+		background-color:#223F65 ; 
+	}
+	.cafe { 
+		color:#986A40 ;  
+	}
+	.cafeTerracota { 
+		background-color:#C27024 ; 
+	}
+	.moradoObs {
+		color: #48444C ; 
+	}
+
+	.verdeR {
+		background-color:  #39701E  ;
+	}
+}
+
+@media screen and (max-width: 700px) {
+ /*colores de fondo */
+	.verdeR {
+		background-color:  #39701E  ;
+	}
+	.moraR { 
+		 background-color:#6F0E6C ; 
+	}
+	.rosaR { 
+		color:#986A40 ;  
+	}
+	.paleta1{
+		font-size: 7px;
+	}
+	header{
+		background-color: green;
+	}
+	.lila{
+	background-color: #DC7FF7;
+	}
+	/*-----OUR AWESOME TEAM-----*/
+	
+
+
+
+	/*---Después de PALETA DE COLORES------*/
+
+	/*-----OUR AWESOME TEAM-----*/
+	/*tamaño iconos*/
+	.icono-ch{
+		font-size: 20em;
+		margin-left: -5%;
+
+	}
+	
+}
+/*---------------*/
+body{
+	padding-top: 65px;
+}
+hr{
+	width: 18%;
+}
+nav{
+	padding-bottom: 18px;
+}
+
+.menuBurger{
+	background-color: #C21DC4;
+
+}
+/*----- PALETA DE COLORES PALETA DE COLORES------------------*/
+
+.paleta1{
+	margin-left: -1%;
+	padding: 5%;
+	display: inline;
+}
+.paleta2{
+	margin-bottom: 10%;
+}
+/*----------colores menú----------*/
+.verde{
+	background-color:  #34C07B;
+}
+.moradoObs {
+	color: #48444C ; 
+}
+.blanc{
+	color: white;
+}
+.moraR { 
+	 background-color:#6F0E6C ; 
+}
+.azulmarino { 
+	background-color:#223F65 ; 
+}
+.anaranjado { 
+	color:#F48825;
+}
+
+
+
+/*-----margin general---------*/
+/*.izq-der{
+	margin-left: 5%;
+	margin-right: 5%;
+}*/
+/*-----------------------margin*/
+.mg-bttm-3{
+	margin-bottom: -4%;
+}
+
+/*----------------------paddings*/
+/*.pd-bttm4{
+	padding-top: 4%;
+}*/
+.pd-top4{
+	padding-top: 4%;
+}
+.pd-bttm5{
+	padding-bottom: 5%;
+}
+
+
+
+/*----PALETA DE COLORES 1-5-------*/
+.c1{
+	background-color: #69D2E7;
+}
+.c2{
+	background-color: #A7DBDB ;
+}
+.c3{
+	background-color: #E0E4CC;
+}
+.c4{
+	background-color: #F38630;
+}
+.c5{
+	background-color: #FA6900;
+}
+/*----PALETA DE COLORES 2-5-------*/
+.c6{
+	background-color: #E94C6F;
+}
+/*c7 es color guinda así que le ponderemos los números blancos*/
+.c7{
+	background-color: #542733;
+}
+.c8{
+	background-color: #5A6A62;
+}
+.c9{
+	background-color: #C6D5CD;
+}
+.c10{
+	background-color: #FDF200;
+}
+/*----PALETA DE COLORES 3-5-------*/
+.c11{
+	background-color: #DB3340;
+}
+.c12{
+	background-color: #E8B71A;
+}
+.c13{
+	background-color: #F7EAC8;
+}
+.c14{
+	background-color: #1FDA9A;
+}
+.c15{
+	background-color: #28ABE3;
+}
+/*----PALETA DE COLORES 4-5-------*/
+.c16{
+	background-color: #588C73;
+}
+.c17{
+	background-color: #F2E394;
+}
+.c18{
+	background-color: #F2AE72;
+}
+.c19{
+	background-color: #D96459;
+}
+.c20{
+	background-color: #8C4646;
+}
+/*----PALETA DE COLORES 5-5-------*/
+.c21{
+	background-color: #D0C91F;
+}
+.c22{
+	background-color: #85C4B9;
+}
+.c23{
+	background-color: #008BBA;
+}
+.c24{
+	background-color: #DF514C;
+}
+.c25{
+	background-color: #DC403B;
+}
+
+/*---Después de PALETA DE COLORES------*/
+
+/*-----OUR AWESOME TEAM-----*/
+/*tamaño iconos*/
+.icono-ch{
+	font-size: 20%;
+	margin-left: -5%;
+
+}
+
+/*---------ABOUT US--------*/
+
+
+.tx-aboutus{
+	padding-left: 10%;
+}
+
+ h1{
+ 	padding-top: 50px;
+ 	padding-bottom: 20px;
+ 	/*font-size: 60px;*/
+ 	font-size: 3em;
+ }
+
+.text{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/* imagenes*/ 
+
+.paisaje{
+	background-image: url(../img/carousel-bg.jpg);
+	height:38em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.puas{
+	height: 40% ;
+	width: 70% ;
+}
+/*----section: WHAT WE DO -------*/
+.cafeTerracota { 
+	background-color:#C27024 ; 
+}
+
+/*section:; redes sociales*/
+.trigal{
+	background-image: url(../img/img-divider-img.jpg);
+	height: 20em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	opacity: .9;
+}
+
+form{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+
+/*REDES SOCIALES */
+	/*tamaño iconos*/
+.redes{
+	height: 1em;
+	width: 1em;
+	margin-left: -2%;
+}
+
+/*me falla esta seccion ,acomodar los iconos*/
+
+
+
+/*ANIMACIÓN*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-400deg);
+     -moz-transform: rotate(-400deg);
+       -o-transform: rotate(-400deg);
+      -ms-transform: rotate(-400deg);
+          transform: rotate(-400deg);
+}
+

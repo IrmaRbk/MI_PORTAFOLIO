@@ -1,0 +1,273 @@
+
+@media screen and (max-width : 920px) {
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+/*ingresar imagen desde css*/
+
+	.backUno{
+		background-image: url(../images/slider1.jpg);
+		height:30em;
+		width: 100% ;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin: auto;
+	}
+	.backDos{
+		background-image: url(../images/slider2.jpg);
+		height:10em;
+		width: 100% ;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin: auto;
+	}
+	nav{
+		list-style: none;s
+	}
+		
+
+}
+.gris{
+	background-color: #F1F1F1	;
+}
+.gris2{
+	background-color: #F2F2F2;
+}
+.ciel{
+	background-color: lightblue;
+}
+.grisobs{
+	background-color: #444444;
+}
+.tx-blanc{
+	color: white;
+}
+
+.tx-autumn{
+	font-size: 180%;
+	margin-top: 12%;
+	padding: 1%;
+}
+.margDos{
+	margin: 2%;
+}
+
+.cien{
+	width: 100%;
+}
+/*para mi menú*/
+ul{	
+	color: white;
+	list-style: none;
+	display: inline-block;
+	margin: 5%;
+	font-size: 15%;
+	margin-top: 50%;
+	padding-left:  15% ;
+
+}
+.clock{
+	padding: 25%;
+}
+
+
+/*para ingresar imagen desde css necesito darle un tamaño*/
+.backimg{
+	height: 50em;
+	width: 100%;
+}
+
+/*ingresar imagen desde css*/
+
+.backUno{
+	background-image: url(../images/slider1.jpg);
+	height:30em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.backDos{
+	background-image: url(../images/slider2.jpg);
+	height:10em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.banner1{
+	background-image: url(../images/banner1.jpg);
+	height:25em;
+	width: 125% ;
+	background-repeat: no-repeat;
+	margin: 5%;
+}
+
+.banner2{
+	background-image: url(../images/banner2.jpg);
+	height:21em;
+	width: 95% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 4%;
+}
+
+/*   PRIMERA SECCIÓN DE ARTÍCULOS   */
+.rosa{
+	background-color: #E48080 ; 
+}
+
+.gris3{
+	background-color: #444444;
+}
+
+.tx-linea{
+	text-decoration: line-through;
+}
+
+.tx-gray{
+	color: gray;
+}
+
+.tx-red{
+	color: red;
+}
+
+.tamano-img{
+	width: 100%;
+}
+.in-l-block{
+	display: inline-block;
+}
+
+.in-block{
+	display: block;
+}
+
+
+/* SECCIÓN CLIENTES  */
+
+.backTres{
+	background-image: url(../images/client-bg.jpg);
+	height:15em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.clients{
+	height:6em;
+	width: 100% ;
+	margin-top: 30%;
+}
+
+.micarrusel{	
+	list-style: none;
+	display: inline-block;
+	margin: 5%;
+	font-size: 100%;
+	margin-top: 50%;
+	padding-left:  15% ;	
+}
+
+.bordBlanco{
+	border: 2px solid white;
+
+}
+/*.opac{
+	opacity: .6;
+}*/
+
+.backobs{
+	background-color: rgba(0,0,0,0.1);
+}
+
+/*para cuando quiero que mi img quede fija*/
+#sobrepuesto{
+	margin-top: -3%;
+	z-index: 1;
+}
+
+/*dar fondo a un icono con una somrita de color hacia abajo */
+.sombraicon{
+	background-color: lightgray;
+	padding: 1%;
+	border-radius: 5%;
+	border-bottom: 5%;
+}
+hr{
+	height: 1%;
+	width: 120%;
+	/*margin-left: -15%;
+	margin-bottom: 9%;*/
+}
+
+/*animaciones*/
+/*animaciones: si quiero declarar mi animacion sin necesidad de que esté 
+en mi css, poner en el html "animated nombredeanimación"*/
+
+/*si quiero que gire sobre su propio eje*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-400deg);
+     -moz-transform: rotate(-400deg);
+       -o-transform: rotate(-400deg);
+      -ms-transform: rotate(-400deg);
+          transform: rotate(-400deg);
+}
+
+
+
+/* cursor: */
+
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
