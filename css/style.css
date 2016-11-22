@@ -8,8 +8,12 @@
 @media screen and (max-width: 700px) {
 
 	.iconos{
-		height: 4em;
+		height: 3em;
 	}
+	.texo{
+		font-size: 1em;
+	}
+
 
 }
 
@@ -95,7 +99,7 @@
 }
 
 .marg_skills{
-	margin-top: -50% !important;
+	margin-top: -65% !important;
 }
 
 
@@ -113,6 +117,9 @@
 	margin: 10em;
 }
 
+.marg-l-r{
+	margin:0%; 
+}
 
 
 /*slide: tamaño de imagenes*/
