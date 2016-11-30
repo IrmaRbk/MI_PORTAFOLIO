@@ -68,7 +68,7 @@ body{
 
 .parallax2{
 	background-image: url("../images/startup.jpg");
-	height: 80em;
+	height: 60em;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -128,9 +128,6 @@ body{
 }
 
 
-
-
-
 /*slide: tamaño de imagenes*/
 
 
@@ -155,4 +152,13 @@ footer{
 
 .p_icon{
 	padding-left: 25%;
+}
+
+/* FRASES: */
+
+.mySlides {
+	display:none;
+	margin-top: 10em ;
+	margin-bottom: 10em;
+	
 }

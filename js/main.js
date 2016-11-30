@@ -27,25 +27,46 @@ function showDivs(n) {
 
 // _________________________
 
-$(document).ready(function(
+// FRASES:
+var slideIndex = 0;
+carousel();
 
-  $("h3").mouseenter(function(){
-      $(this).css('color','red');
-  });
-
-
-  $("#flip").click(function(){
-      $("#panel").slideDown();
-  });
-
-  $("h3").mouseleave(function(){
-      $(this).fadeOut('low'), $(this).fadeIn('low');
-  });
-
-  $(".fotoDos, .fotoTres, .fotoCuatro").mouseenter(function() {
-      $(this).slideUp(1600).slideDown(1600);
-    });
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3500); 
+}
 
 
-});
+
+
+
+
+// $(document).ready(function(
+
+//   $("h3").mouseenter(function(){
+//       $(this).css('color','red');
+//   });
+
+
+//   $("#flip").click(function(){
+//       $("#panel").slideDown();
+//   });
+
+//   $("h3").mouseleave(function(){
+//       $(this).fadeOut('low'), $(this).fadeIn('low');
+//   });
+
+//   $(".fotoDos, .fotoTres, .fotoCuatro").mouseenter(function() {
+//       $(this).slideUp(1600).slideDown(1600);
+//     });
+
+
+// });
 
