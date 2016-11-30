@@ -46,8 +46,6 @@ function carousel() {
 
 
 
-
-
 // $(document).ready(function(
 
 //   $("h3").mouseenter(function(){
