@@ -5,6 +5,10 @@
 
 @media screen and (max-width: 700px) {
 
+	.icon-bar{
+		background-color: #F50087 ;
+	}
+
 	b, i{
 		font-size: 1em;
 	}
@@ -20,13 +24,17 @@
 	.letras_fuente{
 		font-size: 20px !important;
 	}
-	h1{
-		font-size: 2.5em;
-	}
-
+	
 	.mi_boton{
 		margin-left: -7em;
 	}
+
+	/*para mi imagen del cuarto proyecto*/
+	.img_dash{
+		margin-left: -0.5em;
+	}
+	
+
 }
 
 body{
@@ -41,6 +49,10 @@ body{
 }
 .blue_ciel{
 	color: #009AF0;
+}
+
+h3{
+	padding-top: 2em;
 }
 
 
@@ -148,7 +160,7 @@ body{
 }
 
 
-/*slide: tamaño de imagenes*/
+/*SLIDE: tamaño de imagenes*/
 
 
 .mySlides {display:none}
@@ -182,3 +194,25 @@ footer{
 	margin-bottom: 10em;
 
 }
+
+.padd-tx{
+		padding-left: 3%;
+}
+
+/*animaciones*/
+.tilt {
+  -webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-17deg);
+     -moz-transform: rotate(-17deg);
+       -o-transform: rotate(-17deg);
+      -ms-transform: rotate(-17deg);
+          transform: rotate(-17deg);
+}
+
