@@ -24,3 +24,28 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-opacity-off";
 }
+
+// _________________________
+
+$(document).ready(function(
+
+  $("h3").mouseenter(function(){
+      $(this).css('color','red');
+  });
+
+
+  $("#flip").click(function(){
+      $("#panel").slideDown();
+  });
+
+  $("h3").mouseleave(function(){
+      $(this).fadeOut('low'), $(this).fadeIn('low');
+  });
+
+  $(".fotoDos, .fotoTres, .fotoCuatro").mouseenter(function() {
+      $(this).slideUp(1600).slideDown(1600);
+    });
+
+
+});
+

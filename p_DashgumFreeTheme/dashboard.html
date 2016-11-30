@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <title>Adventure time: Dashboard</title>
+    <link href="./css/adventure-time-theme.css" rel="stylesheet">
+    <link href="./css/font-awesome.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    
+  <body>
+    <div id="wrapper">
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> -->
+            <div  class="navbar-brand">
+              <a id="menu-toggle" href="#" ><!-- class="glyphicon glyphicon-align-justify btn-menu toggle" -->
+                  <i class="fa fa-bars"></i>
+              </a>
+              <a href="dashboard.html" class="logo">
+                <b class="hidden-xs blanc">ADVENTURE TIME: DASHBOARD</b>
+                <b class="visible-xs blanc title">ADV.TIME</b>
+              </a>
+            </div>
+            <div class="top-menu boton_logout">
+              <ul class="nav pull-right top-menu">
+                <li><a class="botonLog blanc " href="login.html">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <a href="profile.html">
+          <img src="img/profile_avatar.png" class="img-circle paddtop marg_bonnibel" width="60">
+        </a>
+        <h5 class="text-center blanc">Bonnibel Bubblegum</h5>
+        <nav id="spy">
+            <ul class="sidebar nav">
+              <li>
+                <a href="#anch1 sub-menu">
+                  <!-- <span class="fa fa-anchor solo"> -->
+                    <a class="active" href="index.html">
+                      <i class="fa fa-dashboard blanc"></i>
+                      <span class="blanc">Dashboard</span>
+                    </a>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="buttons.html" >
+                  <i class="fa fa-desktop blanc"></i>
+                  <span class="blanc">Buttons</span>
+                </a>
+              </li>
+              <li>
+                <a href="progress.html" >
+                  <i class="fa fa-desktop blanc"></i>
+                  <span class="blanc">Progress Bars</span>
+                </a>
+              </li>
+              <li>
+                <a href="form_component.html" >
+                  <i class="fa fa-cogs blanc"></i>
+                  <span class="blanc">Forms</span>
+                </a>
+              </li>
+              <li>
+                <a href="basic_tables.html" >
+                  <i class="fa fa-th blanc"></i>
+                  <span class="blanc">Data Tables</span>
+                </a>
+              </li>
+              <li>
+                <a href="gallery.html" >
+                  <i class="fa fa-tasks blanc"></i>
+                  <span class="blanc">Gallery</span>
+                </a>
+              </li>
+              <li>
+                <a href="login.html" >
+                  <i class="fa fa-book blanc"></i>
+                  <span class="blanc">Login Page</span>
+                </a>
+              </li>
+            </ul>
+        </nav>
+      </div>
+
+        <!--main content start-->
+        <section id="main-content ">
+          <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wrapper site-min-height gris paddtop">
+              <div class="col-md-9 main-chart pt-25">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                    <div class="box1 grey gray">
+                      <span class="fa fa-heart iconos"></span>
+                      <h3>933</h3>
+                    </div>
+                    <p class="red">933 People liked your page the last 24hs. Whoohoo!</p>
+                  </div>
+                  <div class="col-md-2 col-sm-2 box0">
+                    <div class="box1 gray">
+                      <span class="fa fa-cloud iconos"></span>
+                      <h3>+48</h3>
+                    </div>
+                    <p class="red">48 New files were added in your cloud storage.</p>
+                  </div>
+                  <div class="col-md-2 col-sm-2 box0">
+                    <div class="box1 gray">
+                      <span class="fa fa-envelope iconos"></span>
+                      <h3>23</h3>
+                    </div>
+                    <p class="red">You have 23 unread messages in your inbox.</p>
+                  </div>
+                  <div class="col-md-2 col-sm-2 box0">
+                    <div class="box1 gray">
+                      <span class="fa fa-slack iconos"></span>
+                      <h3>+10</h3>
+                    </div>
+                    <p class="red">More than 10 news were added in your reader.</p>
+                  </div>
+                  <div class="col-md-2 col-sm-2 box0">
+                    <div class="box1 gray">
+                      <span class="fa fa-database iconos"></span>
+                      <h3>OK!</h3>
+                    </div>
+                    <p class="red">Your server is working perfectly. Relax & enjoy.</p>
+                  </div>
+                </div><!-- /row mt -->  
+                <div class="page-header gray">
+                  <h1>Mis Favoritos</h1>
+                </div>
+                <div class="main-video row">
+                  <div class="col-lg-7">
+                    <div class="video">
+                      <iframe width="100%" height="250" src="https://www.youtube.com/embed/fEr9QY3h7MA" frameborder="0" allowfullscreen></iframe>    
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <h4 class="gray">Adventure time Season 3 Episode 19</h4>
+                    <p class="gray">A human boy named Finn and adoptive brother and best friend Jake the Dog, protect the citizens of the Land of Ooo from foes of various shapes and sizes.</p>
+                    <div class="buttons">
+                      <a href="#">
+                        <i class="fa fa-plus"></i>
+                        <span>Agregar</span>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-share-alt"></i>
+                        <span>Compartir</span>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-ellipsis-h"></i>
+                        <span>Más</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <hr class="divider"></hr>
+                <div class="showback">
+                  <h4>Videos populares</h4>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <iframe width="100%" height="143" src="https://www.youtube.com/embed/fEr9QY3h7MA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4">
+                      <iframe width="100%" height="143" src="https://www.youtube.com/embed/fEr9QY3h7MA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4">
+                      <iframe width="100%" height="143" src="https://www.youtube.com/embed/fEr9QY3h7MA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>                
+                </div>
+                <div class="showback">
+                  <h4>Temporada 1</h4>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <iframe width="100%" height="143" src="https://www.youtube.com/embed/fEr9QY3h7MA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4">
+                      <iframe width="100%" height="143" src="https://www.youtube.com/embed/fEr9QY3h7MA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4">
+                      <iframe width="100%" height="143" src="https://www.youtube.com/embed/fEr9QY3h7MA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>              
+                </div>                            
+              </div>
+              <div class="col-md-3 ds">
+                <h3 class="candy-kingdom blanc candy text-center">CANDY KINGDOM NEWS</h3>
+                <div class="desc">
+                  <div class="thumb">
+                    <span class="badge bg-theme turquesa"><i class="fa fa-clock-o"></i></span>
+                  </div>
+                  <div class="details">
+                    <p><muted>2 Minutes Ago</muted><br/>
+                     <a href="#">James Brown</a> subscribed to your newsletter.<br/>
+                   </p>
+                 </div>
+                </div>
+                <div class="desc">
+                  <div class="thumb">
+                    <span class="badge bg-theme turquesa"><i class="fa fa-clock-o"></i></span>
+                  </div>
+                  <div class="details">
+                    <p><muted>3 Hours Ago</muted><br/>
+                     <a href="#">Diana Kennedy</a> purchased a year subscription.<br/>
+                   </p>
+                </div>
+              </div>
+              <div class="desc">
+                <div class="thumb">
+                  <span class="badge bg-theme turquesa"><i class="fa fa-clock-o"></i></span>
+                </div>
+                <div class="details">
+                  <p><muted>7 Hours Ago</muted><br/>
+                   <a href="#">Brandon Page</a> purchased a year subscription.<br/>
+                 </p>
+               </div>
+              </div>
+               <!-- Fourth Action -->
+               <div class="desc">
+                <div class="thumb">
+                  <span class="badge bg-theme turquesa"><i class="fa fa-clock-o"></i></span>
+                </div>
+                <div class="details">
+                  <p><muted>11 Hours Ago</muted><br/>
+                   <a href="#">Mark Twain</a> commented your post.<br/>
+                 </p>
+               </div>
+             </div>
+             <!-- Fifth Action -->
+             <div class="desc">
+              <div class="thumb">
+                <span class="badge bg-theme turquesa"><i class="fa fa-clock-o"></i></span>
+              </div>
+              <div class="details">
+                <p><muted>18 Hours Ago</muted><br/>
+                 <a href="#">Daniel Pratt</a> purchased a wallet in your store.<br/>
+               </p>
+             </div>
+            </div>
+            <h3 class="candy-kingdom blanc candy text-center">CANDY PEOPLE</h3>
+            <!-- First Member -->
+            <div class="desc">
+              <div class="thumb">
+                <img class="img-circle" src="img/friends/cinamon-bun.jpg" width="35px" height="35px">
+              </div>
+              <div class="details">
+                <p>
+                  <a href="#">CINNAMON BUN</a><br/>
+                  <muted>Available</muted>
+                </p>
+              </div>
+            </div>
+            <!-- Second Member -->
+            <div class="desc">
+              <div class="thumb">
+                <img class="img-circle" src="img/friends/finn.jpg" width="35px" height="35px">
+              </div>
+              <div class="details">
+                <p>
+                  <a href="#">FINN THE HUMAN</a><br/>
+                  <muted>I am Busy</muted>
+                </p>
+              </div>
+            </div>
+            <!-- Third Member -->
+            <div class="desc">
+              <div class="thumb">
+                <img class="img-circle" src="img/friends/jake.jpg" width="35px" height="35px">
+              </div>
+              <div class="details">
+                <p><a href="#">JAKE THE DOG</a><br/>
+                 <muted>Available</muted>
+                </p>
+              </div>
+             </div>
+             <!-- Fourth Member -->
+             <div class="desc">
+              <div class="thumb">
+                <img class="img-circle" src="img/friends/rainicorn.gif" width="35px" height="35px">
+              </div>
+              <div class="details">
+                <p><a href="#">PRINCESS RAINICORN</a><br/>
+                 <muted>Available</muted>
+               </p>
+             </div>
+            </div>
+            <!-- Fifth Member -->
+            <div class="desc">
+              <div class="thumb">
+                <img class="img-circle" src="img/friends/marceline.jpg" width="35px" height="35px">
+              </div>
+              <div class="details">
+                <p>
+                  <a href="#">Marcel Newman</a><br/>
+                  <muted>Available</muted>
+                </p>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
