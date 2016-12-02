@@ -2,9 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="ThreeSixty Bootstrap Template">
-        <meta name="author" content="Fabian Bentz Webdesign">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,400italic,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="./css/animate.css">
@@ -24,7 +22,7 @@
         <title>MI PORTAFOLIO</title>
     </head>
     <body >
-        <div class="container-fluid">
+        <div class="container-fluid img_principal">
             <nav class="navbar navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header ">
@@ -34,23 +32,28 @@
                             <span class=" icon-bar"></span>
                             <span class=" icon-bar"></span>
                         </button>
-                        <h1 class="verdelima letras_fuente name w3-text-shadow padd-tx" id="myCanvas"><b>Irma Alcantar</b></h1>
+                        <h1 class="fadeInDown animated verdelima letras_fuente name w3-text-shadow padd-tx" id="myCanvas"><a class="love animated rubberBand infinite">
+                                    <span class="glyphicon glyphicon-heart love animated rubberBand infinite"></span>
+                                </a> Irma Alcantar</h1>
                     </div>
                     <div class="collapse navbar-collapse navbar-right" id="menu">
                         <ul class="nav navbar-nav" id="menu">
                             <li><a class="verdelima letras_fuente" href="#SOBRE_MI"><small>SOBRE MI</small> </a></li>
                             <li><a class="verdelima letras_fuente" href="#MIS_PROYECTOS"><small>MIS PROYECTOS</small></a></li>
                             <li><a class="verdelima letras_fuente" href="#SERVICIOS"><small>SERVICIOS</small></a></li>
-                            <li><a class="verdelima letras_fuente" href="#CONTACTAME"><small>CONTÁCTAME</small></a></li>
+                            <!-- <li><a class="verdelima letras_fuente" href="#CONTACTAME"><small>CONTÁCTAME</small></a></li> -->
+                            <li>
+                                <a class="verdelima letras_fuente" href="#CONTACTAME"><small>CONTÁCTAME</small></a>
+                            </li> 
                         </ul>
                     </div>
                 </div>
             </nav>
-            <a name="SOBRE_MI"></a><header>
+            <a name="SOBRE_MI"></a><header><!--  SOBRE MI + FRASE INSPIRADORA -->
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 "> <!--  SECCIÓN DE: SOBRE MI  -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 "> 
                         <div class="text-center backblue">
-                            <h3 class="letras_fuente blue_ciel pull-left">Soy Mercadóloga y Front-end Developer Jr.</h3>
+                            <h3 class="letras_fuente blue_ciel pull-left"><strong>Soy Mercadóloga y Front-end Developer Jr.</strong></h3>
                         </div>
                         <h4 class="letras_fuente blue_ciel p_icon pull-right"></h4>
                         <cite class="cite letras_fuente blue_ciel p_icon pull-right text-center">Creo que la  pasión por el trabajo, las ganas de lograr tus objetivos y la inspiración es básica para alimentar la creatividad, necesaria para que las ideas impacten mejor en el Sector Digital.</cite>
@@ -70,7 +73,7 @@
                                     <a href="p_AccesoriesFashion/index.html" target="blank" data-toggle="tooltip" title="Ejercicio con Bootstrap" data-placement="Tooltip on right"><img class="img_dash w3-border w3-padding demo w3-opacity w3-hover-opacity-off" src="./images/accesories.png" alt="proyecto_accesories" style="width:63%" onclick="currentDiv(2)"></a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
-                                    <a href="p_KaneTheme/index.html" target="blank" data-toggle="tooltip" title="Ejercicio con Bootstrap,uso de links y estructura básica html" data-placement="Tooltip on right"><img class="img_dash w3-border w3-padding demo w3-opacity w3-hover-opacity-off" src="./images/kane_theme.png" alt="proyecto_kane_theme" style="width:64%" onclick="currentDiv(3)"></a>
+                                    <a href="p_KaneTheme/index.html" target="blank" data-toggle="tooltip" title="Ejercicio con Bootstrap, uso de links y estructura html" data-placement="Tooltip on right"><img class="img_dash w3-border w3-padding demo w3-opacity w3-hover-opacity-off" src="./images/kane_theme.png" alt="proyecto_kane_theme" style="width:64%" onclick="currentDiv(3)"></a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
                                     <a href="p_DashgumFreeTheme/index.html" target="blank" data-toggle="tooltip" title="Mi primer ejercicio con Materialize" data-placement="Tooltip on right"><img class="img_dash dashy w3-border w3-padding demo w3-opacity w3-hover-opacity-off" src="./images/dashboard.PNG" alt="proyecto_dashboard" style="width:64%" onclick="currentDiv(4)"></a>
@@ -79,8 +82,8 @@
                         </div>
                     </div>
                 </div>
-            </section>  <!--  SECCIÓN DE: SKILLS + BOTÓN -->
-            <a name="SERVICIOS"><section > 
+            </section> 
+            <a name="SERVICIOS"><section >  <!--  SECCIÓN DE: SKILLS + BOTÓN -->
                 <div class="container">   
                     <div class="row backblue ">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
@@ -102,6 +105,24 @@
                                     <span class="sr-only">60% Complete(warning)</span>          
                                 </div>
                             </div><!--termina Stripped Progress Bar -->
+                            <p class="blue_ciel letras_fuente margin_bar">Bootstrap | intermedio</p>
+                            <div class="progress"><!-- Stripped Progress Bar -->
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin"0" aria-valuemax="100" style="width:35%">
+                                    <span class="sr-only">60% Complete(warning)</span>          
+                                </div>
+                            </div><!--termina Stripped Progress Bar -->
+                            <p class="blue_ciel letras_fuente margin_bar">Materialize | básico</p>
+                            <div class="progress"><!-- Stripped Progress Bar -->
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin"0" aria-valuemax="100" style="width:35%">
+                                    <span class="sr-only">60% Complete(warning)</span>          
+                                </div>
+                            </div><!--termina Stripped Progress Bar -->
+                            <p class="blue_ciel letras_fuente margin_bar">JQuery | básico</p>
+                            <div class="progress"><!-- Stripped Progress Bar -->
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin"0" aria-valuemax="100" style="width:35%">
+                                    <span class="sr-only">60% Complete(warning)</span>          
+                                </div>
+                            </div><!--termina Stripped Progress Bar -->
                             <p class="blue_ciel letras_fuente margin_bar"> JavaScript | básico</p>
                             <div class="progress"><!-- Stripped Progress Bar -->
                                 <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin"0" aria-valuemax="100" style="width:35%">
@@ -117,7 +138,7 @@
                             <p class="blue_ciel letras_fuente margin_bar">Materialize | básico</p>
                         </div>                      
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mi_boton">
-                            <button type="button" class="pad_boton btn btn-primary btn-lg ">
+                            <button type="button" class="pad_boton btn btn-primary btn-lg vert">
                                 <a href="images/mi_cv.pdf" target="blank"><span class="glyphicon glyphicon-cloud-download boton_icon" aria-hidden="true"></span> <b>MI CV</b></a>
                             </button>  
                         </div> 
@@ -132,27 +153,52 @@
                                 <div class=" w3-content" style="max-width:400px">
                                     <div class="mySlides w3-container w3-red">
                                        <h5><b>Y por si te preguntabas...</b></h5>
-                                       <h5><i>  ¿que hacemos los mercadólogos?</i></h5>
+                                       <h5><i>   ¿Qué hacemos los Mercadólogos?</i></h5>
                                     </div>
                                     <div class="mySlides w3-container w3-blue">
                                        <h5><b>No stalkeamos, </b></h5>
-                                       <h5><i>...hacemos mystery shopper!</i></h5>
+                                       <h5><i>... hacemos mystery shopper!</i></h5>
                                     </div>
                                     <div class="mySlides w3-container w3-yellow">
                                        <h5><b>No tenemos personalidad múltiple, </b></h5>
-                                       <h5><i>...tropicalizamos!</i></h5>
+                                       <h5><i>... tropicalizamos!</i></h5>
                                     </div>
                                     <div class="mySlides w3-container w3-pink">
                                        <h5><b>No twitteo, </b></h5>
-                                       <h5><i>...utilizo las redes sociales para saber el comportamiento del consumidor.</i></h5>
+                                       <h5><i>... utilizo las redes sociales para saber el comportamiento del consumidor.</i></h5>
                                     </div>
                                     <div class="mySlides w3-container w3-green">
                                        <h5><b>No organizamos fiestas,</b></h5>
                                        <h5><i>...hacemos event marketing.</i></h5>
                                     </div>
                                     <div class="mySlides w3-container w3-orange">
-                                       <h5><b>No canto,</b></h5>
+                                       <h5><b>No cantamos,</b></h5>
                                        <h5><i>... hacemos jingles.</i></h5>
+                                    </div>
+                                    <div class="mySlides w3-container w3-red">
+                                       <h5><b>Y por si te preguntabas...</b></h5>
+                                       <h5><i>  ¿Qué hacemos los Mercadólogos?</i></h5>
+                                    </div>
+                                    <div class="mySlides w3-container w3-blue">
+                                       <h5><b>No creamos necesidades,</b></h5>
+                                       <h5><i>... las descubrimos.</i></h5>
+                                    </div>
+                                    <div class="mySlides w3-container w3-yellow">
+                                       <h5><b>No es que no me guste,</b></h5>
+                                       <h5><i>... es que está fuera de mi top of mind.</i></h5>
+                                    </div>
+                                    <div class="mySlides w3-container w3-pink">
+                                       <h5><b>No nos gusta la fiesta,</b></h5>
+                                       <h5><i>...... hacemos relaciones públicas</i></h5>
+                                    </div>
+                                    <div class="mySlides w3-container w3-green">
+                                       <h5><b>No soy selectivo,</b></h5>
+                                       <h5><i>... sólo segmento.</i></h5>
+                                    </div>
+
+                                    <div class="mySlides w3-container w3-orange">
+                                       <h5><b>No somos cuenteros, </b></h5>
+                                       <h5><i>... hacemos storytelling.</i></h5>
                                     </div>
                                 </div>
                                 <p class="blue_ciel letras_fuente">¿Te gusta lo que has visto?</p>
@@ -165,7 +211,8 @@
             <a name="CONTACTAME"><footer>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center blanco_footer ">
-                        <h2 class="padd_bar"><b>CONTÁCTAME</b></h2>
+                        <h2 class="padd_bar verdelima"><b>CONTÁCTAME</b></h2>
+                        <hr class="white semi_blanco ">
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
@@ -193,6 +240,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center blanco_footer ">                    
+                        <hr class="white semi_blanco ">
+                        <h2 class="padd_bar"><small>© Elaborado por Irma Rebeca Alcantar Meza | Laboratoria México | 2016.</small></h2>
+                    </div>
             </footer>
         </div>
       <!-- BOOTSTRAP JAVASCRIPT -->

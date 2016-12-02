@@ -37,6 +37,11 @@
 
 }
 
+nav{
+	background-color: #461766 ;
+	opacity: .85;
+}
+
 body{
 	background-color: #47474F;
 }
@@ -116,8 +121,8 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: -2em;
-}
-*/
+}*/
+
 .parallax4{
 	background-image: url("../images/office2.jpg");
 	height: 90em;
@@ -159,6 +164,10 @@ h3{
 	margin: 10em;
 }
 
+/*.vert{
+	border-radius:  red;
+}*/
+
 
 /*SLIDE: tamaño de imagenes*/
 
@@ -184,6 +193,25 @@ footer{
 
 .p_icon{
 	padding-left: 25%;
+}
+
+/*ICONOS DEL MENÚ*/
+.icons_menu{
+	margin: 0.2em;
+	padding-left: 40%;
+}
+
+.p_icon_menu{
+	padding-left: 25%;
+
+}
+
+hr{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+
 }
 
 /* FRASES: */

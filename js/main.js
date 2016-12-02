@@ -44,9 +44,28 @@ function carousel() {
 }
 
 
-$(function(){
-  $('[data-toggle="tooltip"]').tooltip()
-})
+// $(function(){
+//   $('[data-toggle="tooltip"]').tooltip()
+
+
+// PARA MI IMAGEN PRINCIPAL
+
+
+  // $(".img_principal").click(function() {
+  //     $(this).slideUp(1600);
+  //   });
+
+//goto top
+    // $('.img_principal').click(function (event) {
+    //     event.preventDefault();
+    //     $('html, body').animate({
+    //         scrollTop: $("body").offset().top
+    //     }, 500);
+    // });
+
+
+
+
 
 
 // $(document).ready(function(
@@ -64,9 +83,9 @@ $(function(){
 //       $(this).fadeOut('low'), $(this).fadeIn('low');
 //   });
 
-//   $(".fotoDos, .fotoTres, .fotoCuatro").mouseenter(function() {
-//       $(this).slideUp(1600).slideDown(1600);
-//     });
+  // $(".fotoDos, .fotoTres, .fotoCuatro").mouseenter(function() {
+  //     $(this).slideUp(1600).slideDown(1600);
+  //   });
 
 
 // });
